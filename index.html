@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Happy Birthday!</title>
+    </head>
+    <body>
+        <center>
+            <div>
+        <img src="https://i.pinimg.com/originals/e7/59/0f/e7590f532f0fd3f7accd7bb8aeb40684.jpg">
+    </div>
+    <audio id="myAudio">
+        <source src="birthday.song" type="audio/song">
+        <source src="birthday.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      
+      <h1>GAME SETTINGS:</h1>
+      <button onclick="playAudio()" style="background-color: transparent;"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/play-button_25b6-fe0f.png"></button>
+      <button onclick="pauseAudio()" style="background-color: transparent;"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/pause-button_23f8-fe0f.png"></button> 
+      
+      <script>
+      var x = document.getElementById("myAudio"); 
+      
+      function playAudio() { 
+        x.play(); 
+      } 
+      
+      function pauseAudio() { 
+        x.pause(); 
+      } 
+      </script>
+ 
+    </center>
+    </body>
+</html>
